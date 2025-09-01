@@ -1,0 +1,81 @@
+# Node modules (ignore everywhere)
+node_modules/
+**/node_modules/
+
+# Build outputs
+/build
+/dist
+/public/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# macOS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# npm or yarn lock files (optional to track if you want consistency)
+/package-lock.json
+/yarn.lock
+
+# React specific files
+/build
+/.pnp
+.pnp.js
+
+# Test coverage
+/coverage
+**/coverage
+
+# IDE project files
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.tgz
+*.bak
+*.tmp
+*.temp
+
+# Frontend specific
+src/**/*.css.map
+scr/**/*.js.map
+src/**/*.jsx.map
+
+# Backend specific
+/dist
+/lib
+/*.log
+
+# Editor plugins
+*.eslintcache
+
+# Optional caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+
+# Others
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
